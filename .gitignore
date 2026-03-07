@@ -1,0 +1,41 @@
+# --- Systemowe ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Środowiska i logi ---
+.env
+*.log
+logs/
+temp/
+tmp/
+
+# --- IDE i Edytory ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Node.js / Frontend ---
+node_modules/
+dist/
+build/
+.npm
+npm-debug.log*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# --- Kompilaty (C++/Java/itp.) ---
+*.exe
+*.out
+*.app
+*.bin
+*.class
+*.jar
