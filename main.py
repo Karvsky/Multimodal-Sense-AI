@@ -17,7 +17,7 @@ mapping = text_processing(r'.\captions.txt')
 tokenizer = tokens_feeding(mapping)
 
 audio_model = load_model("audio_model_v1.h5")
-caption_model = load_model("model_final_epoch_20.keras")
+caption_model = load_model("best_model.keras")
 
 DIGITS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 IMG_HEIGHT = 64
