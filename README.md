@@ -21,7 +21,6 @@ A deep learning framework designed for **unified perception** by integrating vis
     * `audio_processing.py`: Digital signal processing tools for MFCC extraction and noise reduction.
     * `text_tokenization.py`: Tools for text cleaning, tokenization, and embedding generation.
 * **`/fusion_logic`**: Core algorithms for merging feature maps from different encoders (late-fusion and mid-fusion implementations).
-* **`requirements.txt`**: Complete list of Python libraries and dependencies used in the project.
 
 ## Tech Stack
 
